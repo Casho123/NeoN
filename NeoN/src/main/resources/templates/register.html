@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -115,8 +117,6 @@
         </div>
     </div>
 </main>
-<footer class="container text-white">
-    <p>&copy;SoftUni Spring Team 2021. All rights reserved.</p>
-</footer>
+<th:block th:include="~{/fragments/footer}" />
 </body>
 </html>
