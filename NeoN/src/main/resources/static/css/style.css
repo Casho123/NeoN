@@ -1,10 +1,12 @@
 .body-mainIndex {
-    background-image: url(/images/hero-model.PNG);
+    background-image: url(/images/hero.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
+
 
 .body-mainRegister {
     background-image: url(/images/model.jpg);
@@ -12,6 +14,7 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .body-mainLogin {
@@ -20,6 +23,7 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 
@@ -33,6 +37,7 @@ footer {
     font-family: Fantasy;
 
 }
+
 
 .pl-5 {
     font-family: Cursive;
