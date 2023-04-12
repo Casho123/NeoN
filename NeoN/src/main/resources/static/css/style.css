@@ -1,9 +1,13 @@
 body {
-    background-image: url(/images/cowboy.jpg);
+    background-image: url(/images/environment1.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+}
+
+#footer {
+font-family: Georgia,Serif;
 }
 
 .jumbotron{
