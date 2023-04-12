@@ -1,4 +1,4 @@
-body {
+.body-mainIndex {
     background-image: url(/images/environment1.PNG);
     background-size: cover;
     background-repeat: no-repeat;
@@ -6,9 +6,27 @@ body {
     flex-direction: column;
 }
 
+.body-mainRegister {
+    background-image: url(/images/model.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-mainLogin {
+    background-image: url(/images/cowboy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 footer {
     font-family: Georgia,Serif;
-    color: black;
+    color: #fff;
 }
 
 .jumbotron{
