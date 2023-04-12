@@ -6,8 +6,9 @@ body {
     flex-direction: column;
 }
 
-#footer {
-font-family: Georgia,Serif;
+footer {
+    font-family: Georgia,Serif;
+    color: black;
 }
 
 .jumbotron{
