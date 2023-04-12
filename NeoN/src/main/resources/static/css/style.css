@@ -29,6 +29,19 @@ footer {
     color: #fff;
 }
 
+.display-3 {
+    font-family: Fantasy;
+
+}
+
+.pl-5 {
+    font-family: Cursive;
+}
+.mt-3 {
+    font-family: Cursive;
+}
+
+
 .jumbotron{
     background-color: rgba(0,0,0,0.1);
     min-height: 90vh;
