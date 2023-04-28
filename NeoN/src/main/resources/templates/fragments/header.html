@@ -4,16 +4,19 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" th:href="@{/}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" th:href="@{/login}">Login</a>
+                    <a class="nav-link"
+                       th:href="@{/login}">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" th:href="@{/register}">Register</a>
+                    <a class="nav-link"
+                       th:href="@{/register}">Register</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" th:href="@{/about}">About</a>
+                    <a class="nav-link"
+                       th:href="@{/about}">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" th:href="@{/music}">Music</a>
@@ -24,8 +27,20 @@
                 <li class="nav-item">
                     <a class="nav-link" th:href="@{/pictures}">Pictures</a>
                 </li>
+<!--                <li class="nav-item">-->
+<!--                    <form th:method="get">-->
+<!--                        <label class="text-white" th:text="#{navbar_language}" for="lang"></label>-->
+<!--                        <select-->
+<!--                                onchange="this.form.submit()"-->
+<!--                                id="lang"-->
+<!--                                name="lang">-->
+<!--                            <option value="en_US" th:selected="${#locale.toString()} == 'en_US'">English</option>-->
+<!--                            <option value="bg_BG" th:selected="${#locale.toString()} == 'bg_BG'">Български</option>-->
+<!--                        </select>-->
+<!--                    </form>-->
+<!--                </li>-->
             </ul>
-            <img width="50px" src="/images/bug.PNG" alt="Bug image">
+            <img width="50px" src="/images/beetle.PNG" alt="Bug image">
         </div>
     </nav>
 </html>

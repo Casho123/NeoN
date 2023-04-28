@@ -1,13 +1,37 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About</title>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
 
+<head>
+    <title>NeoN</title>
+    <th:block th:include="~{/fragments/head}" />
+
+</head>
+<body class="body-about">
+<header>
+    <th:block th:include="~{/fragments/header}" />
+</header>
+<main role="main">
+    <div class="jumbotron">
+        <div class="container text-light text-center">
+            <h1 class="display-3"><strong>Stoyan and the Family Band present ..</strong></h1>
+        </div>
+        <div class="container bg-blur text-white align-items-end rounded mt-5 p-5">
+            <div class="row">
+                <div>
+                    <div class="row">
+                        <img width="50px" src="/images/bug3.PNG" alt="Bug image">
+                        <h2 class="pl-5">An original game for fans of the unknown!</h2>
+                    </div>
+                    <p class="mt-3 ">You are a space cowboy who is fighting aliens. Equipped with old school guns and space traps, you are the
+                        one to defend the Universe!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <th:block th:include="~{/fragments/footer}" />
+</main>
 </body>
 </html>

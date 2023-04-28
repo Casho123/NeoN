@@ -9,7 +9,7 @@
 
 
 .body-mainRegister {
-    background-image: url(/images/shotgun.PNG);
+    background-image: url(/images/bug1.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -18,7 +18,16 @@
 }
 
 .body-mainLogin {
-    background-image: url(/images/cowboy.PNG);
+    background-image: url(/images/bug2.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.body-about {
+    background-image: url(/images/bug3.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
