@@ -8,6 +8,11 @@ public class NeoNApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(NeoNApplication.class, args);
+
+
 	}
+
+
+
 
 }
