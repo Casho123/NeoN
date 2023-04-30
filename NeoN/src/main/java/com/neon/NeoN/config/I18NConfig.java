@@ -27,6 +27,13 @@ public class I18NConfig {
         return lci;
     }
 
+    @Bean
+    public MessageSource messageSource() {
+        ResourceBundleMessageSource resourceBundleMessageSource = new ResourceBundleMessageSource();
+        resourceBundleMessageSource.setBasename("i18n/messages.properties");
+        resourceBundleMessageSource.setDefaultEncoding("UTF-8");
 
+        return resourceBundleMessageSource;
+    }
 }
 
